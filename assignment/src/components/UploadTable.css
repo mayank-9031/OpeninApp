@@ -1,0 +1,54 @@
+.uploads-container {
+  margin-top: 20px;
+}
+
+.uploads-container h2 {
+  margin-bottom: 10px;
+}
+
+.uploads-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.uploads-table th,
+.uploads-table td {
+  padding: 12px 15px;
+  border: 1px solid #e1e1e1;
+  text-align: left;
+}
+
+.uploads-table th {
+  background-color: #f9f9f9;
+}
+
+.uploads-table td {
+  background-color: #ffffff;
+}
+
+.uploads-table a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.uploads-table a:hover {
+  text-decoration: underline;
+}
+
+.tag {
+  display: inline-block;
+  margin: 2px;
+  padding: 2px 5px;
+  background-color: #e9e9e9;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.delete-tag {
+  margin-left: 5px;
+  color: #c00;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

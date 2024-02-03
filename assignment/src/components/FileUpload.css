@@ -1,0 +1,145 @@
+.upload-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background: #2c3e50;
+  padding: 20px;
+}
+
+.upload-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.upload-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.file-drop-area input[type="file"] {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.upload-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+.upload-button:hover {
+  background-color: #2980b9;
+}
+
+.file-drop-description {
+  position: relative;
+  z-index: 10;
+}
+
+.upload-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background: #2c3e50;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-item .icon {
+  margin-right: 10px;
+}
+
+.nav-item.active {
+  background: #34495e;
+  border-radius: 5px;
+}
+
+.upload-content {
+  flex-grow: 1;
+  padding: 20px;
+  background: #ecf0f1;
+}
+
+.file-drop-area {
+  position: relative;
+  text-align: center;
+}
+
+.file-drop-area input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background: #34495e;
+}
